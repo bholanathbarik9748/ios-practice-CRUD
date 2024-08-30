@@ -13,6 +13,7 @@
 		E508AB332C80CF8F00BB1F22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E508AB322C80CF8F00BB1F22 /* Preview Assets.xcassets */; };
 		E508AB352C80CF8F00BB1F22 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E508AB342C80CF8F00BB1F22 /* Persistence.swift */; };
 		E508AB382C80CF8F00BB1F22 /* tudo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E508AB362C80CF8F00BB1F22 /* tudo.xcdatamodeld */; };
+		E508AB402C80D5E300BB1F22 /* TudoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E508AB3F2C80D5E300BB1F22 /* TudoCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		E508AB322C80CF8F00BB1F22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E508AB342C80CF8F00BB1F22 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		E508AB372C80CF8F00BB1F22 /* tudo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tudo.xcdatamodel; sourceTree = "<group>"; };
+		E508AB3F2C80D5E300BB1F22 /* TudoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TudoCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,8 @@
 		E508AB2A2C80CF8D00BB1F22 /* tudo */ = {
 			isa = PBXGroup;
 			children = (
+				E508AB412C820D6900BB1F22 /* Model */,
+				E508AB3E2C80D5C600BB1F22 /* Shared */,
 				E508AB2B2C80CF8D00BB1F22 /* tudoApp.swift */,
 				E508AB2D2C80CF8D00BB1F22 /* ContentView.swift */,
 				E508AB2F2C80CF8F00BB1F22 /* Assets.xcassets */,
@@ -71,6 +75,21 @@
 				E508AB322C80CF8F00BB1F22 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E508AB3E2C80D5C600BB1F22 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E508AB3F2C80D5E300BB1F22 /* TudoCard.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E508AB412C820D6900BB1F22 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E508AB402C80D5E300BB1F22 /* TudoCard.swift in Sources */,
 				E508AB352C80CF8F00BB1F22 /* Persistence.swift in Sources */,
 				E508AB382C80CF8F00BB1F22 /* tudo.xcdatamodeld in Sources */,
 				E508AB2E2C80CF8D00BB1F22 /* ContentView.swift in Sources */,
